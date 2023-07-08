@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="17" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T00:33:23 IST" name="CrossBrowserTestSuite" finished-at="2023-07-09T00:35:26 IST" duration-ms="123000">
+    <groups>
+      <group name="search">
+        <method signature="ManageExpenseNewTest.clickManageExpenseAndIsDisplayedOrNot()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" name="clickManageExpenseAndIsDisplayedOrNot" class="ExecutePageClasses.ManageExpenseNewTest"/>
+        <method signature="ExpenseCategoryTestClass.verifyToSearchCreatedExpense()[pri:2, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" name="verifyToSearchCreatedExpense" class="ExecutePageClasses.ExpenseCategoryTestClass"/>
+      </group> <!-- search -->
+      <group name="create">
+        <method signature="ManagaProductTestPage.verifyToSearchaProduct()[pri:0, instance:ExecutePageClasses.ManagaProductTestPage@38425407]" name="verifyToSearchaProduct" class="ExecutePageClasses.ManagaProductTestPage"/>
+        <method signature="ManageExpenseNewTest.createNewMangeExpense()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" name="createNewMangeExpense" class="ExecutePageClasses.ManageExpenseNewTest"/>
+        <method signature="ExpenseCategoryTestClass.verifyToCreateNewExpense()[pri:1, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" name="verifyToCreateNewExpense" class="ExecutePageClasses.ExpenseCategoryTestClass"/>
+      </group> <!-- create -->
+      <group name="delete">
+        <method signature="ExpenseCategoryTestClass.verifyToDeleteCreatedExpense()[pri:3, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" name="verifyToDeleteCreatedExpense" class="ExecutePageClasses.ExpenseCategoryTestClass"/>
+      </group> <!-- delete -->
+      <group name="group2">
+        <method signature="ManageExpenseNewTest.searchCreatedNewMangeExpense()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" name="searchCreatedNewMangeExpense" class="ExecutePageClasses.ManageExpenseNewTest"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="HomePageTestClass.verifyAllTileDisplayed()[pri:0, instance:ExecutePageClasses.HomePageTestClass@3c41ed1d]" name="verifyAllTileDisplayed" class="ExecutePageClasses.HomePageTestClass"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2023-07-09T00:33:23 IST" name="ChromeTest" finished-at="2023-07-09T00:35:26 IST" duration-ms="123000">
+      <class name="ExecutePageClasses.ManageExpenseNewTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:34:44 IST" name="beforeMethod" finished-at="2023-07-09T00:34:50 IST" duration-ms="5516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickManageExpenseAndIsDisplayedOrNot()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:34:50 IST" name="clickManageExpenseAndIsDisplayedOrNot" finished-at="2023-07-09T00:34:51 IST" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickManageExpenseAndIsDisplayedOrNot -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:34:51 IST" name="afterMethod" finished-at="2023-07-09T00:34:51 IST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickManageExpenseAndIsDisplayedOrNot status=SUCCESS method=ManageExpenseNewTest.clickManageExpenseAndIsDisplayedOrNot()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:34:51 IST" name="beforeMethod" finished-at="2023-07-09T00:34:53 IST" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewMangeExpense()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:34:53 IST" name="createNewMangeExpense" finished-at="2023-07-09T00:35:04 IST" duration-ms="10686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewMangeExpense -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:35:04 IST" name="afterMethod" finished-at="2023-07-09T00:35:04 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewMangeExpense status=SUCCESS method=ManageExpenseNewTest.createNewMangeExpense()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:35:04 IST" name="beforeMethod" finished-at="2023-07-09T00:35:06 IST" duration-ms="1737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchCreatedNewMangeExpense()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:35:06 IST" name="searchCreatedNewMangeExpense" finished-at="2023-07-09T00:35:10 IST" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCreatedNewMangeExpense -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d]" started-at="2023-07-09T00:35:10 IST" name="afterMethod" finished-at="2023-07-09T00:35:10 IST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCreatedNewMangeExpense status=SUCCESS method=ManageExpenseNewTest.searchCreatedNewMangeExpense()[pri:0, instance:ExecutePageClasses.ManageExpenseNewTest@54d9d12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExecutePageClasses.ManageExpenseNewTest -->
+      <class name="ExecutePageClasses.ManagaProductTestPage">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ManagaProductTestPage@38425407]" started-at="2023-07-09T00:35:10 IST" name="beforeMethod" finished-at="2023-07-09T00:35:12 IST" duration-ms="1561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToSearchaProduct()[pri:0, instance:ExecutePageClasses.ManagaProductTestPage@38425407]" started-at="2023-07-09T00:35:12 IST" name="verifyToSearchaProduct" finished-at="2023-07-09T00:35:15 IST" duration-ms="2819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToSearchaProduct -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ManagaProductTestPage@38425407]" started-at="2023-07-09T00:35:15 IST" name="afterMethod" finished-at="2023-07-09T00:35:15 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToSearchaProduct status=SUCCESS method=ManagaProductTestPage.verifyToSearchaProduct()[pri:0, instance:ExecutePageClasses.ManagaProductTestPage@38425407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExecutePageClasses.ManagaProductTestPage -->
+      <class name="ExecutePageClasses.ExpenseCategoryTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:15 IST" name="beforeMethod" finished-at="2023-07-09T00:35:16 IST" duration-ms="1573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToCreateNewExpense()[pri:1, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:16 IST" name="verifyToCreateNewExpense" finished-at="2023-07-09T00:35:18 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateNewExpense -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:18 IST" name="afterMethod" finished-at="2023-07-09T00:35:18 IST" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToCreateNewExpense status=SUCCESS method=ExpenseCategoryTestClass.verifyToCreateNewExpense()[pri:1, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:18 IST" name="beforeMethod" finished-at="2023-07-09T00:35:20 IST" duration-ms="1761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToSearchCreatedExpense()[pri:2, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:20 IST" name="verifyToSearchCreatedExpense" finished-at="2023-07-09T00:35:22 IST" duration-ms="1870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToSearchCreatedExpense -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:22 IST" name="afterMethod" finished-at="2023-07-09T00:35:22 IST" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToSearchCreatedExpense status=SUCCESS method=ExpenseCategoryTestClass.verifyToSearchCreatedExpense()[pri:2, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:22 IST" name="beforeMethod" finished-at="2023-07-09T00:35:24 IST" duration-ms="1638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToDeleteCreatedExpense()[pri:3, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:24 IST" name="verifyToDeleteCreatedExpense" finished-at="2023-07-09T00:35:26 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToDeleteCreatedExpense -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3]" started-at="2023-07-09T00:35:26 IST" name="afterMethod" finished-at="2023-07-09T00:35:26 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToDeleteCreatedExpense status=SUCCESS method=ExpenseCategoryTestClass.verifyToDeleteCreatedExpense()[pri:3, instance:ExecutePageClasses.ExpenseCategoryTestClass@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExecutePageClasses.ExpenseCategoryTestClass -->
+      <class name="ExecutePageClasses.LoginPageTestClass">
+        <test-method is-config="true" signature="createReport(org.testng.ITestContext)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:22 IST" name="createReport" finished-at="2023-07-09T00:33:23 IST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7cf66cf9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:23 IST" name="beforeMethod" finished-at="2023-07-09T00:33:26 IST" duration-ms="2899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:26 IST" name="verifyUnSuccessfulLogin" data-provider="UnsuccefullLoginDp" finished-at="2023-07-09T00:33:26 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnSuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:26 IST" name="afterMethod" finished-at="2023-07-09T00:33:27 IST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnSuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:27 IST" name="beforeMethod" finished-at="2023-07-09T00:33:34 IST" duration-ms="7571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:34 IST" name="verifyUnSuccessfulLogin" data-provider="UnsuccefullLoginDp" finished-at="2023-07-09T00:33:35 IST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwerty123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnSuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:35 IST" name="afterMethod" finished-at="2023-07-09T00:33:35 IST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnSuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:33:35 IST" name="beforeMethod" finished-at="2023-07-09T00:34:02 IST" duration-ms="27265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:02 IST" name="verifyUnSuccessfulLogin" data-provider="UnsuccefullLoginDp" finished-at="2023-07-09T00:34:04 IST" duration-ms="1708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin007]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnSuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:04 IST" name="afterMethod" finished-at="2023-07-09T00:34:04 IST" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnSuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:04 IST" name="beforeMethod" finished-at="2023-07-09T00:34:32 IST" duration-ms="28457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySuccessfulLogin(java.lang.String,java.lang.String)[pri:1, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:32 IST" name="verifySuccessfulLogin" data-provider="SuccefullLoginDp" finished-at="2023-07-09T00:34:35 IST" duration-ms="2351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:35 IST" name="afterMethod" finished-at="2023-07-09T00:34:35 IST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifySuccessfulLogin(java.lang.String,java.lang.String)[pri:1, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:35 IST" name="beforeMethod" finished-at="2023-07-09T00:34:41 IST" duration-ms="5950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyRememberMeCheckBoxIsSlectedOrNot()[pri:2, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:41 IST" name="verifyRememberMeCheckBoxIsSlectedOrNot" finished-at="2023-07-09T00:34:41 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberMeCheckBoxIsSlectedOrNot -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f]" started-at="2023-07-09T00:34:41 IST" name="afterMethod" finished-at="2023-07-09T00:34:41 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRememberMeCheckBoxIsSlectedOrNot status=SUCCESS method=LoginPageTestClass.verifyRememberMeCheckBoxIsSlectedOrNot()[pri:2, instance:ExecutePageClasses.LoginPageTestClass@3e694b3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExecutePageClasses.LoginPageTestClass -->
+      <class name="ExecutePageClasses.HomePageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:ExecutePageClasses.HomePageTestClass@3c41ed1d]" started-at="2023-07-09T00:34:41 IST" name="beforeMethod" finished-at="2023-07-09T00:34:43 IST" duration-ms="1646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAllTileDisplayed()[pri:0, instance:ExecutePageClasses.HomePageTestClass@3c41ed1d]" started-at="2023-07-09T00:34:43 IST" name="verifyAllTileDisplayed" finished-at="2023-07-09T00:34:44 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllTileDisplayed -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ExecutePageClasses.HomePageTestClass@3c41ed1d]" started-at="2023-07-09T00:34:44 IST" name="afterMethod" finished-at="2023-07-09T00:34:44 IST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllTileDisplayed status=SUCCESS method=HomePageTestClass.verifyAllTileDisplayed()[pri:0, instance:ExecutePageClasses.HomePageTestClass@3c41ed1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ExecutePageClasses.HomePageTestClass -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- CrossBrowserTestSuite -->
+</testng-results>
