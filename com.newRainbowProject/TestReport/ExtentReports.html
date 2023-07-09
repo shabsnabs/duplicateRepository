@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>/home/shabana/eclipse-workspace/com.newRainbowProject//TestReport//ExtentReports.html</title>
+<title>/home/shabana/git/duplicateRepository/com.newRainbowProject//TestReport//ExtentReports.html</title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
@@ -32,10 +32,10 @@
 </ul>
 <ul class="nav-right">
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">/home/shabana/eclipse-workspace/com.newRainbowProject//TestReport//ExtentReports.html</span></a>
+<a href="#"><span class="badge badge-primary">/home/shabana/git/duplicateRepository/com.newRainbowProject//TestReport//ExtentReports.html</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 9, 2023 12:26:46 AM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 9, 2023 01:22:10 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -66,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -74,25 +79,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="skip" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">clickManageExpenseAndIsDisplayedOrNot</p>
             <p class="text-sm">
-              <span>12:26:51 AM</span> / <span>00:00:02:024</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:26:48 PM</span> / <span>00:00:00:648</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">clickManageExpenseAndIsDisplayedOrNot</h5>
-<span class='badge badge-success'>07.09.2023 12:26:51 AM</span>
-<span class='badge badge-danger'>07.09.2023 12:26:53 AM</span>
-<span class='badge badge-default'>00:00:02:024</span>
+<h5 class="test-status text-skip">clickManageExpenseAndIsDisplayedOrNot</h5>
+<span class='badge badge-success'>07.09.2023 1:26:48 PM</span>
+<span class='badge badge-danger'>07.09.2023 1:26:48 PM</span>
+<span class='badge badge-default'>00:00:00:648</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,10 +109,69 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:26:53 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:26:48 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-46-generic', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f11c3de7f9e126691672c8557824fe91, get {url=http://groceryapp.uniqassosiates.com/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.3A8eev}, goog:chromeOptions: {debuggerAddress: localhost:38757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38757/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f11c3de7f9e126691672c8557824fe91
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at ExecutePageClasses.BaseClassTest.beforeMethod(BaseClassTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 44 more
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -115,25 +179,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="skip" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">createNewMangeExpense</p>
             <p class="text-sm">
-              <span>12:26:55 AM</span> / <span>00:00:06:219</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:26:53 PM</span> / <span>00:00:00:082</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">createNewMangeExpense</h5>
-<span class='badge badge-success'>07.09.2023 12:26:55 AM</span>
-<span class='badge badge-danger'>07.09.2023 12:27:02 AM</span>
-<span class='badge badge-default'>00:00:06:219</span>
+<h5 class="test-status text-skip">createNewMangeExpense</h5>
+<span class='badge badge-success'>07.09.2023 1:26:53 PM</span>
+<span class='badge badge-danger'>07.09.2023 1:26:53 PM</span>
+<span class='badge badge-default'>00:00:00:082</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -145,10 +209,69 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:27:02 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:26:53 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-46-generic', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f11c3de7f9e126691672c8557824fe91, get {url=http://groceryapp.uniqassosiates.com/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.3A8eev}, goog:chromeOptions: {debuggerAddress: localhost:38757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38757/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f11c3de7f9e126691672c8557824fe91
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at ExecutePageClasses.BaseClassTest.beforeMethod(BaseClassTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 44 more
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -156,25 +279,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="4"
+        <li class="test-item"  status="skip" test-id="4"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">searchCreatedNewMangeExpense</p>
             <p class="text-sm">
-              <span>12:27:03 AM</span> / <span>00:00:05:037</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:26:54 PM</span> / <span>00:00:00:087</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">searchCreatedNewMangeExpense</h5>
-<span class='badge badge-success'>07.09.2023 12:27:03 AM</span>
-<span class='badge badge-danger'>07.09.2023 12:27:08 AM</span>
-<span class='badge badge-default'>00:00:05:037</span>
+<h5 class="test-status text-skip">searchCreatedNewMangeExpense</h5>
+<span class='badge badge-success'>07.09.2023 1:26:54 PM</span>
+<span class='badge badge-danger'>07.09.2023 1:26:54 PM</span>
+<span class='badge badge-default'>00:00:00:087</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -186,10 +309,69 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:27:08 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:26:54 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-46-generic', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f11c3de7f9e126691672c8557824fe91, get {url=http://groceryapp.uniqassosiates.com/admin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.3A8eev}, goog:chromeOptions: {debuggerAddress: localhost:38757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38757/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f11c3de7f9e126691672c8557824fe91
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at ExecutePageClasses.BaseClassTest.beforeMethod(BaseClassTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+	... 44 more
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -197,25 +379,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
+        <li class="test-item"  status="skip" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verifyToCreateNewExpense</p>
             <p class="text-sm">
-              <span>12:27:11 AM</span> / <span>00:00:03:530</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:28:28 PM</span> / <span>00:00:00:101</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyToCreateNewExpense</h5>
-<span class='badge badge-success'>07.09.2023 12:27:11 AM</span>
-<span class='badge badge-danger'>07.09.2023 12:27:14 AM</span>
-<span class='badge badge-default'>00:00:03:530</span>
+<h5 class="test-status text-skip">verifyToCreateNewExpense</h5>
+<span class='badge badge-success'>07.09.2023 1:28:28 PM</span>
+<span class='badge badge-danger'>07.09.2023 1:28:28 PM</span>
+<span class='badge badge-default'>00:00:00:101</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -227,10 +409,63 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:27:14 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:28:28 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
+Host info: host: 'shabana-MacBookPro', ip: '127.0.1.1'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-46-generic', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+	at ExecutePageClasses.BaseClassTest.beforeMethod(BaseClassTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -238,25 +473,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="6"
+        <li class="test-item"  status="skip" test-id="6"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verifyToSearchCreatedExpense</p>
             <p class="text-sm">
-              <span>12:27:23 AM</span> / <span>00:00:02:999</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:28:30 PM</span> / <span>00:00:00:064</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyToSearchCreatedExpense</h5>
-<span class='badge badge-success'>07.09.2023 12:27:23 AM</span>
-<span class='badge badge-danger'>07.09.2023 12:27:26 AM</span>
-<span class='badge badge-default'>00:00:02:999</span>
+<h5 class="test-status text-skip">verifyToSearchCreatedExpense</h5>
+<span class='badge badge-success'>07.09.2023 1:28:30 PM</span>
+<span class='badge badge-danger'>07.09.2023 1:28:30 PM</span>
+<span class='badge badge-default'>00:00:00:064</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -268,10 +503,63 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:27:26 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:28:30 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
+Host info: host: 'shabana-MacBookPro', ip: '127.0.1.1'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-46-generic', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+	at ExecutePageClasses.BaseClassTest.beforeMethod(BaseClassTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -279,25 +567,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="7"
+        <li class="test-item"  status="skip" test-id="7"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">verifyToDeleteCreatedExpense</p>
             <p class="text-sm">
-              <span>12:27:52 AM</span> / <span>00:00:04:038</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>1:28:31 PM</span> / <span>00:00:00:075</span>
+              <span class="badge skip-bg log float-right">Skip</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">verifyToDeleteCreatedExpense</h5>
-<span class='badge badge-success'>07.09.2023 12:27:52 AM</span>
-<span class='badge badge-danger'>07.09.2023 12:27:56 AM</span>
-<span class='badge badge-default'>00:00:04:038</span>
+<h5 class="test-status text-skip">verifyToDeleteCreatedExpense</h5>
+<span class='badge badge-success'>07.09.2023 1:28:31 PM</span>
+<span class='badge badge-danger'>07.09.2023 1:28:31 PM</span>
+<span class='badge badge-default'>00:00:00:075</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -309,10 +597,63 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:27:56 AM</td>
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:28:31 PM</td>
         <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
+Host info: host: 'shabana-MacBookPro', ip: '127.0.1.1'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-46-generic', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:94)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+	at ExecutePageClasses.BaseClassTest.beforeMethod(BaseClassTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -329,24 +670,134 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-skip'>3</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="skip" class='badge log badge-skip'>3 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:26:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>clickManageExpenseAndIsDisplayedOrNot</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:26:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>createNewMangeExpense</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:26:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>searchCreatedNewMangeExpense</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-skip'>3</span>
+</span>
+<p class="name">org.openqa.selenium.SessionNotCreatedException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.SessionNotCreatedException</h4>
+<span status="skip" class='badge log badge-skip'>3 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:28:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyToCreateNewExpense</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:28:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>verifyToSearchCreatedExpense</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:28:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>verifyToDeleteCreatedExpense</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 9, 2023 12:26:46 AM</h3>
+<h3>Jul 9, 2023 01:22:10 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 9, 2023 12:27:56 AM</h3>
+<h3>Jul 9, 2023 01:28:34 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>6</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -368,13 +819,13 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>6</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
 <small data-tooltip='0%'><b>0</b> tests failed,
-<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+<b>6</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
 </div>
@@ -391,10 +842,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>6</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>0</b> others
+<b data-tooltip='%'>6</b> others
 </small>
 </div>
 </div>
@@ -410,7 +861,7 @@
 </div></div>
 <script>
 var timeline = {
-"clickManageExpenseAndIsDisplayedOrNot":2.024,"createNewMangeExpense":6.219,"searchCreatedNewMangeExpense":5.037,"verifyToCreateNewExpense":3.53,"verifyToSearchCreatedExpense":2.999,"verifyToDeleteCreatedExpense":4.038
+"clickManageExpenseAndIsDisplayedOrNot":0.648,"createNewMangeExpense":0.082,"searchCreatedNewMangeExpense":0.087,"verifyToCreateNewExpense":0.101,"verifyToSearchCreatedExpense":0.064,"verifyToDeleteCreatedExpense":0.075
 };
 </script>
 <div class="row">
@@ -419,10 +870,10 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 6,
+passParent: 0,
 failParent: 0,
 warningParent: 0,
-skipParent: 0,
+skipParent: 6,
 childCount: 5,
 passChild: 0,
 failChild: 0,
@@ -436,10 +887,10 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 6,
+passEvents: 0,
 failEvents: 0,
 warningEvents: 0,
-skipEvents: 0,
+skipEvents: 6,
 infoEvents: 0
 };
 </script>        </div>

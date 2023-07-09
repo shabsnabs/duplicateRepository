@@ -28,6 +28,16 @@
           <include name="verifyToSearchCreatedExpense"/>
         </methods>
       </class> <!-- ExecutePageClasses.ExpenseCategoryTestClass -->
+      <class name="ExecutePageClasses.ManageExpenseNewTest">
+        <methods>
+          <include name="clickManageExpenseAndIsDisplayedOrNot"/>
+          <include name="searchCreatedNewMangeExpense"/>
+          <include name="createNewMangeExpense"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ExecutePageClasses.ManageExpenseNewTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
